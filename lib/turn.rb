@@ -28,6 +28,7 @@ def valid_move?(board, index)
   array[index] = value #Takes our array with empty spaces, selects a value, and sets that value equal to the user character.
 end
 
-def turn
+def turn(user_input)
+
 
 end
