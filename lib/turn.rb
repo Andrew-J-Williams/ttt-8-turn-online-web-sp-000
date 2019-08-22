@@ -40,7 +40,7 @@ def turn(board)
     turn(board)
   else
     while valid_move?(board,index) == false
-      puts "Please enter a valid value"
+      turn(board)
     end
   end
 end
