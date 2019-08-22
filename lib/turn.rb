@@ -9,3 +9,9 @@ end
 def input_to_index(number)
   number.to_i-1
 end
+
+def valid_move?(board, index)
+   if position_taken?(board,index) == false && index.to_i.between?(0, 8)
+     return true
+   end
+ end
