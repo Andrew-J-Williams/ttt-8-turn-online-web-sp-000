@@ -32,5 +32,6 @@ def turn(board)
   puts "Please enter 1-9:"
   number = gets.to_i
 
-  
+  input_to_index(number)
+
 end
