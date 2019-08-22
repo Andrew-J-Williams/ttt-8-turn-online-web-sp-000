@@ -27,3 +27,7 @@ def valid_move?(board, index)
  def move(array, index, value = "X") #Defines 3 arguments: the board array, the index value the user chose, and the value of their character.
   array[index] = value #Takes our array with empty spaces, selects a value, and sets that value equal to the user character.
 end
+
+def turn
+
+end
